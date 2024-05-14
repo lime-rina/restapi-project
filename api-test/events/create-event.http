@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJleHAiOjE3MTU2NzU3MzQsInVzZXJJZCI6MX0.ODy1JeOHm9oIwgmUw_5skNUe5uWigOw_lkkYttoBq4k
+
+{
+    "name": "Event 1",
+    "description": "Event 1 description",
+    "location": "Miami, USA",    
+    "dateTime": "2019-01-01T15:30:00.000Z"
+}

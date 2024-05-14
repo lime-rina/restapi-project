@@ -1,9 +1,0 @@
-POST http://localhost:8080/events
-content-type: application/json
-
-{
-    "name": "Event 2",
-    "description": "Event 2 description",
-    "location": "SF, USA",    
-    "dateTime": "2019-01-01T15:30:00.000Z"
-}
